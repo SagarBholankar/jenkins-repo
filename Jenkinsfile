@@ -2,6 +2,17 @@ pipeline {
     agent any
 
     stages {
+        
+        stage (install-git
+        
+            steps {
+                
+                sh 'sudo yum install git -y'   
+                
+            }
+        
+        }
+        
         stage ('Compile Stage') {
 
             steps {
