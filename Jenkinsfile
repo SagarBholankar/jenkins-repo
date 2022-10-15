@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         
-        stage (install-git
+        stage (install-git){
         
             steps {
                 
